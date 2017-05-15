@@ -10,6 +10,10 @@ body
   margin-top: 40px
   +outer-container(1024px)
 
+.site-content-small
+  margin-top: 40px
+  +outer-container(720px)
+
 .home
   .card-image
     img
@@ -25,3 +29,16 @@ body
 nav
   .active
     background-color: red
+
+.bg-silver
+  background-color: $brand-silver
+
+.col-4-last
+  +span-columns(4)
+  +omega
+
+.col-8
+  +span-columns(8)
+
+.col-7
+  +span-columns(7)
