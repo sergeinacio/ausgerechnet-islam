@@ -332,7 +332,7 @@ html {
         background-color: #fff;
         display: inline;
         float: left;
-        height: 18.75em;
+        height: 421px;
         width: 20%; } }
   @media screen and (min-width: 600px) {
     .vertical-tabs-container .vertical-tab {
@@ -356,7 +356,7 @@ html {
       outline: none; }
     @media screen and (min-width: 600px) {
       .vertical-tabs-container .vertical-tab-content-container {
-        height: 18.75em;
+        height: 421px;
         width: 80%;
         background-color: #f7f7f7;
         display: inline-block; } }
@@ -390,7 +390,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Open+Sans" sans-serif;
+  font-family: "Open Sans" sans-serif;
   font-size: 18px; }
 
 #navigation-bar {
@@ -515,13 +515,15 @@ nav .active {
 .home-page > .site-content > h4 {
   margin-bottom: 40px; }
 
-#das-buch-home .site-content-small {
-  padding: 40px 0; }
-  #das-buch-home .site-content-small h4 {
-    text-align: left; }
-  #das-buch-home .site-content-small img {
-    border: solid 1px #9b887d; }
-  #das-buch-home .site-content-small p {
-    text-align: left; }
+#das-buch-home .site-content .vertical-tabs-container {
+  padding: 60px 0; }
+#das-buch-home .site-content h4 {
+  text-align: left; }
+#das-buch-home .site-content img {
+  border: solid 1px #9b887d; }
+#das-buch-home .site-content p {
+  text-align: left; }
+#das-buch-home .site-content #tab3 {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
