@@ -42,7 +42,7 @@
 	<!-- NAVIGATION -->
 <section id="hero">
   <div class="pattern">
-  	<header class="navigation" role="banner">
+  	<header class="navigation" style="position:fixed; top: 0; z-index: 2; width: 100%" role="banner">
   	  <div class="navigation-wrapper">
 
   		<a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>

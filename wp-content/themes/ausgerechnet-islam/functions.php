@@ -82,8 +82,8 @@ function wpdocs_custom_excerpt_length( $length ) {
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 
 // Changing excerpt more
- function new_excerpt_more($more) {
-   global $post;
-   return '… <a href="'. get_permalink($post->ID) . '">' . 'Weiter lesen &raquo;' . '</a>';
- }
- add_filter('excerpt_more', 'new_excerpt_more');
+function new_excerpt_more($more) {
+  global $post;
+  return '… <a href="'. get_permalink($post->ID) . '">' . 'Weiter lesen &raquo;' . '</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
